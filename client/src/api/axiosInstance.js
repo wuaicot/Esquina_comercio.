@@ -7,11 +7,11 @@ import axios from "axios";
   //credentials: "include",
   withCredentials: true,
 }); */
-
+   //"https://pf-henry-bookstore-production.up.railway.app"
 //Api Nube
 const axiosInstance = axios.create({
-  baseURL: "https://pf-henry-bookstore-production.up.railway.app",
-  //credentials: "include",
+  baseURL: "http://localhost:3001/",
+  credentials: "include",
   withCredentials: true,
 });
 
